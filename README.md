@@ -1,4 +1,16 @@
 
+## Components of the repository:
+
+`Docker` : Contains the DockerFile which will create docker image with the Jupyter and Spark installations.
+
+`PNG files ( data.PNG output.PNG jupyter_path.PNG kafka_producer.PNG )` : are some screens of code.
+
+`jars` : contains the jar file to connect Spark with Kafka.
+
+`sample_data.csv` : is an example of data that we want to send from Kafka to Spark.
+
+`spark_demo.ipynb` : is the code that we will use to do this task.
+
 ## Step 1: Create a Docker image for Spark/Jupyter
 We will use a Jupyter notebook to run the python code of this repositry. That's why we will create a Docker image with the Jupyter and Spark installations.
 
