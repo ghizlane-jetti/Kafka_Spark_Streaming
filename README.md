@@ -76,7 +76,7 @@ os.environ['PYSPARK_SUBMIT_ARGS'] = "--packages=org.apache.spark:spark-sql-kafka
 ```
 
 ## Step 5: Run the Kafka producer
-In a production application, an external process could continuously write messages to Kafka. For this example, we want to write some data `sample_data.csv` to Kafka for later processing:
+In a production application, an external process could continuously write messages to Kafka. For this example, we want to write some data `sample_data.csv` to Kafka:
 
 ![Screenshot](data.PNG)
 
