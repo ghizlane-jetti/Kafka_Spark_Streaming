@@ -11,6 +11,11 @@
 
 `spark_demo.ipynb` : is the code that we will use to do this task.
 
+## Requirements:
+
+- Git.
+- Docker.
+
 ## Step 1: Create a Docker image for Spark/Jupyter
 We will use a Jupyter notebook to run the python code of this repositry. That's why we will create a Docker image with the Jupyter and Spark installations.
 
